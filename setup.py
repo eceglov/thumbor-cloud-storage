@@ -2,9 +2,10 @@ from setuptools import setup
 from setuptools import find_packages
 
 REQUIREMENTS = [
-  "thumbor==5.0.3",
-  "gcloud==0.7.1",
-  "protorpc==0.10.0",
+  "thumbor==5.2.1",
+  "gcloud==0.12.0",
+  "protorpc==0.11.1",
+  "oauth2client==2.0.1",
 ]
 
 setup(
